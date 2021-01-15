@@ -35,4 +35,5 @@ jobs:
         df -h
         which wget
         which curl
-        curl -X POST https://maker.ifttt.com/trigger/vulples_place/with/key/dLEmf-jVMlrj5f0P8PAZYL
+        curl -X POST -H "Content-Type: application/json" -d '{"value1":"","value2":"","value3":""}' https://maker.ifttt.com/trigger/event/with/key/dLEmf-jVMlrj5f0P8PAZYL
+
